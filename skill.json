@@ -1,0 +1,9 @@
+{
+  "name": "genpark-secure-secret-token-redactor-skill",
+  "version": "1.0.1",
+  "description": "High-speed regex and entropy-based scanner redacting API keys, JWT tokens, private keys, and credentials from prompt logs",
+  "tools": [
+    "scan_secrets",
+    "redact_secrets"
+  ]
+}
