@@ -1,0 +1,7 @@
+name: genpark-secure-secret-token-redactor-skill
+description: High-speed regex and entropy-based scanner redacting API keys, JWT tokens, private keys, and credentials from prompt logs
+version: 1.0.1
+entrypoint: mcp_server.py
+command: python
+args:
+  - mcp_server.py
